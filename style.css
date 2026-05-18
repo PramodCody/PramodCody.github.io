@@ -1,8 +1,10 @@
 
 #top_panel {
+    margin-top: 10px;
     display: flex;
     justify-content: left;
     gap: 10px; /*distance between menu and pramodcody*/
+    border-bottom: 2px solid black;
 }
 
 
