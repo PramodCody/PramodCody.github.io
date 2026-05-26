@@ -1,0 +1,10 @@
+#download {
+    padding-top: 10vh; /* margin-top is collapsing with margin of navbar*/
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+

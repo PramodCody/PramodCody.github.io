@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
 
-* {
+/* * {
     margin: 0px;
     padding: 0px;
-}
+} */
+
 
 
 #navbar {
     width: calc(100vw - 40px); /*- is equal to 2*margin*/
-    height: 70px;
+    height: 60px;
     background-color: whitesmoke;
 
     position: fixed;
@@ -23,6 +24,8 @@
     flex-direction: row;
     align-items: center;
 }
+
+
 
 
 #menu_button {
@@ -43,6 +46,7 @@
     border-radius: 50%;
     transition: none;
 }
+
 
 
 
