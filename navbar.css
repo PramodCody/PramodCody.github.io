@@ -29,12 +29,15 @@
 
 
 #menu_button {
-    height: 56px;
-    width: 56px;
+    height: 48px;
+    width: 48px;
     display: inline-block;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#menu_button span {
+    font-size: 38px;
 }
 #menu_button:hover {
     background-color: rgba(155, 149, 149, 0.5);

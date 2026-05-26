@@ -1,0 +1,56 @@
+#download {
+
+    /*box definition*/
+    position: relative;
+    top: -40px;
+    width: 100vw;
+    height: 70px;
+
+    /*box arrangement*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#download button {
+    
+    /*box definition*/
+    border: none;
+    width: 320px;
+    height: 64px;
+
+    /*making box beautiful*/
+    border-radius: 20px;
+    background: linear-gradient(90deg, #3b164d 0%, #3e73b2 100%);
+    box-shadow: 0px 6px 3px;
+
+
+    /*arrangement of download img and tex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#download button span {
+    font-size: 40px;
+    margin-right: 10px;
+    color: white;
+}
+
+#download button p {
+    font-size: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+#download button:hover {
+    box-shadow: 0px 6px 5px;
+}
+#download button:active {
+    transform: scale(0.99, 0.99);
+    box-shadow: 0px 4px 3px;
+}
