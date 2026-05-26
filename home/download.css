@@ -2,7 +2,7 @@
 
     /*box definition*/
     position: relative;
-    top: -40px;
+    top: -60px;
     width: 100vw;
     height: 70px;
 
@@ -18,7 +18,7 @@
     
     /*box definition*/
     border: none;
-    width: 320px;
+    width: 280px;
     height: 64px;
 
     /*making box beautiful*/
