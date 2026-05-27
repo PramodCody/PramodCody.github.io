@@ -54,6 +54,13 @@
 
 
 
+#web_name {
+    display: inline-block;
+}
+#web_name h1 {
+    font-family: Lexend;
+    font-weight: 700;
+}
 
 
 
@@ -100,14 +107,3 @@
     border-radius: 50%;
     transition: none;
 } */
-
-
-
-
-#web_name {
-    display: inline-block;
-}
-#web_name h1 {
-    font-family: Lexend;
-    font-weight: 700;
-}

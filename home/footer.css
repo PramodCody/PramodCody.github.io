@@ -21,8 +21,16 @@
     align-items: center;
     gap: 3px;
 }
-#footers a:hover {
+
+
+#youtube:hover {
+    color: red;
+}
+#facebook:hover {
     color: blue;
+}
+#whatsapp:hover {
+    color: green;
 }
 
 .footer {

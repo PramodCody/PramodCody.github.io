@@ -3,13 +3,20 @@
     /*box definition*/
     position: relative;
     top: -80px;
-    width: 100vw;
+    width: auto;
     height: 60px;
 
     /*box arrangement*/
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media (min-width: 1024px) {
+    #download {
+        display: inline-block;
+        top: 0px;
+        order: 3;
+    }
 }
 
 
