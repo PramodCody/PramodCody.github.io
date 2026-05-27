@@ -63,3 +63,52 @@
     transform: scale(0.99, 0.99);
     box-shadow: 0px 4px 3px;
 }
+
+
+#downloading {
+    width: 120px;
+    background-color: grey;
+    padding: 5px;
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin: 0 auto; /*arranges the div in middle somehow*/
+    
+    position: relative;
+    top: -40px;
+
+    opacity: 0;
+    visibility: hidden;
+}
+@media (min-width: 1024px) {
+    #downloading {
+        top: 0px;
+        position: static;
+    }
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    50% {
+        opacity: 1;
+        visibility: visible;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.fade-in-out-active {
+    /* 2s total duration: 1s to fade in, 1s to fade out */
+    animation: fadeInOut 1s ease-in-out forwards; 
+}
