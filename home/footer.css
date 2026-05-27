@@ -2,7 +2,7 @@
     padding-top: 2px;
     padding-bottom: 2px;
     padding-right: 20px; /*to make it somehow in middle*/
-    margin-top: 20px;
+    margin-top: 32px;
     /* background-color: rebeccapurple; */
     display: flex;
     justify-content: space-around;
@@ -20,6 +20,9 @@
     display: inline-flex;
     align-items: center;
     gap: 3px;
+}
+#footers a:hover {
+    color: blue;
 }
 
 .footer {
